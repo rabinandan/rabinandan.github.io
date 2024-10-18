@@ -28,59 +28,36 @@ h3 {
 }
 
 section {
-    margin: 20px auto; /* Center the section */
+    margin: 20px 0;
     padding: 20px;
+    background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px; /* Set a max width for better readability */
 }
 
-#about {
-    background-color: #e0f7fa; /* Light Cyan */
+ul, ol {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
 }
 
-#skills {
-    background-color: #fff9c4; /* Light Yellow */
-}
-
-#research {
-    background-color: #ffe0b2; /* Light Orange */
-}
-
-#work-experience {
-    background-color: #e1bee7; /* Light Purple */
-}
-
-#certifications {
-    background-color: #c8e6c9; /* Light Green */
-}
-
-#education {
-    background-color: #bbdefb; /* Light Blue */
-}
-
-.others {
-    background-color: #f8bbd0; /* Light Pink */
+li {
+    margin: 10px 0;
 }
 
 footer {
     background-color: #007bff;
     color: white;
     padding: 10px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+a {
+    color: #007bff;
+    text-decoration: none; /* Remove underline from links */
 }
 
-li {
-    margin: 5px 0;
-}
-
-.certification-item {
-    margin: 15px 0;
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
 }
