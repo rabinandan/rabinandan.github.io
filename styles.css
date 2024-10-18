@@ -1,38 +1,74 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    text-align: center; /* Center-align all text */
+    text-align: center; /* Center align all text */
 }
 
 header {
-    background: #007BFF;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
 }
 
 h1 {
+    font-size: 2.5em;
     margin: 0;
 }
 
 h2 {
     font-size: 1.5em;
+    margin: 10px 0;
 }
 
-h3, h4 {
-    color: #007BFF;
+h3 {
+    font-size: 1.2em;
 }
 
 section {
-    margin-bottom: 20px;
-    padding: 10px;
-    background: #fff;
-    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: inline-block; /* Center the sections */
+}
+
+#about {
+    background-color: #e0f7fa; /* Light Cyan */
+}
+
+#skills {
+    background-color: #fff9c4; /* Light Yellow */
+}
+
+#research {
+    background-color: #ffe0b2; /* Light Orange */
+}
+
+#work-experience {
+    background-color: #f1f8e9; /* Light Green */
+}
+
+#certifications {
+    background-color: #fce4ec; /* Light Pink */
+}
+
+#education {
+    background-color: #e8f5e9; /* Light Light Green */
+}
+
+.others {
+    background-color: #e1bee7; /* Light Purple */
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 ul {
@@ -40,11 +76,15 @@ ul {
     padding: 0;
 }
 
-ul li {
-    padding: 5px 0;
+li {
+    margin: 5px 0;
 }
 
-footer {
-    margin-top: 20px;
-    font-size: 0.9em;
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
