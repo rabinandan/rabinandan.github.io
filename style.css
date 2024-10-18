@@ -5,10 +5,10 @@ body {
     padding: 20px;
     background-color: #f4f4f4;
     color: #333;
+    text-align: center; /* Center-align all text */
 }
 
 header {
-    text-align: center;
     background: #007BFF;
     color: #fff;
     padding: 10px 0;
@@ -32,6 +32,7 @@ section {
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Center the sections */
 }
 
 ul {
@@ -44,7 +45,6 @@ ul li {
 }
 
 footer {
-    text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
 }
