@@ -27,14 +27,16 @@
 
   <!-- Left Side Menu -->
   <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="assets/images/background.jpg" alt="Background Image">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="assets/images/background.jpg" alt="Background Image">
+        </div>
+        <a href="#user"><img class="circle" src="assets/images/profile.jpg" alt="Profile Image"></a>
+        <a href="#name"><span class="white-text name">Rabinandan Kishor</span></a>
+        <a href="#email"><span class="white-text email">rabinandan@example.com</span></a>
       </div>
-      <a href="#user"><img class="circle" src="assets/images/profile.jpg" alt="Profile Image"></a>
-      <a href="#name"><span class="white-text name">Rabinandan Kishor</span></a>
-      <a href="#email"><span class="white-text email">rabinandan@example.com</span></a>
-    </div></li>
+    </li>
     <li><a href="#about" class="sidenav-close">About</a></li>
     <li><a href="#skills" class="sidenav-close">Skills</a></li>
     <li><a href="#education" class="sidenav-close">Education</a></li>
@@ -83,41 +85,35 @@
                 <p class="brown-text">West Lafayette, USA</p>
                 <p>
                   <b>Degree: </b>Postgraduate Degree in AI & Machine Learning      
-                  <br>
-                  <b>Duration: </b>Jan 2024 - Jan 2025
                 </p>
+                <p><b>CGPA: </b>Yet to Fill</p>
+                <p><b>Relevant Courseworks:</b></p>
+                <ul>
+                  <li>Data Mining</li>
+                  <li>Machine Learning</li>
+                  <li>Deep Learning</li>
+                </ul>
               </div>
             </div>
           </div>
-
           <div class="col s12 m6 l6">
             <div class="card">
               <div class="card-content">
                 <p>
-                  <span class="card-title"><a href="https://www.svsubhartiuniversity.ac.in/" target="_blank" class="teal-text hoverline">Swami Vivekananda Subharti University</a></span>
+                  <span class="card-title"><a href="https://www.japan-academy.in/" target="_blank" class="teal-text hoverline">Swami Vivekananda Subharti University</a></span>
                 </p>
                 <p class="brown-text">Meerut, India</p>
                 <p>
                   <b>Degree: </b>MBA in Business Administration and Management
                   <br>
-                  <b>Duration: </b>Jan 2020 - Mar 2022
+                  <b>CGPA: </b>Yet to Fill
                 </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://www.miet.ac.in/" target="_blank" class="teal-text hoverline">Meerut Institute of Engineering and Technology</a></span>
-                </p>
-                <p class="brown-text">Meerut, India</p>
-                <p>
-                  <b>Degree: </b>Bachelor of Technology in Computer Science and Engineering
-                  <br>
-                  <b>Duration: </b>May 2012 - Jul 2016
-                </p>
+                <p><b>Relevant Courseworks:</b></p>
+                <ul>
+                  <li>Business Strategy</li>
+                  <li>Marketing Management</li>
+                  <li>Financial Management</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -125,27 +121,7 @@
       </div>
     </section>
 
-    <!-- Fourth Section: Research -->
-    <section id="research" class="section scrollspy">
-      <h3 class="page-title white-text teal">Research</h3>
-      <div class="container">
-        <ul>
-          <li>
-            <b>Title:</b> *Neuro-Symbolic AI: Bringing a new era of Machine Learning* 
-            <br>
-            <b>Abstract:</b> Processing Natural Language using machines is not a new concept. Back in 1940, researchers estimated the importance of a machine that could translate one language to another. Further, during 1957-1970, researchers split into two divisions concerning NLP: symbolic and stochastic. This paper presents an extensive review of recent breakthroughs in Neuro Symbolic Artificial Intelligence (NSAI), an area of AI research which seeks to combine...
-          </li>
-          <li>
-            <b>Title:</b> LABOR STATUS IN JAPAN AND ANALYSIS OF WMN MODEL TO PROCURE EXTERNAL HUMAN RESOURCE FROM OVERSEAS
-          </li>
-          <li>
-            <b>Title:</b> Implementation of Cloud for Online Election System
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Fifth Section: Contact -->
+    <!-- Fourth Section: Contact -->
     <section id="contact" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
@@ -156,7 +132,7 @@
         <p>
           <a aria-label="Email Rabinandan" href="mailto:rabinandan@example.com" target="_blank" data-position="top"
             data-tooltip="Email Rabinandan" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-            class="fa fa-envelope"></i> rabinandan@example.com</a>
+              class="fa fa-envelope"></i> rabinandan@example.com</a>
         </p>
         <p>
           <a aria-label="View Rabinandan on GitHub" href="http://github.com/rabinandan" target="_blank"
@@ -167,7 +143,7 @@
           <a aria-label="View Rabinandan on LinkedIn" href="http://linkedin.com/in/rabinandan-kishor" target="_blank"
             data-position="top" data-tooltip="View Rabinandan on LinkedIn"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-            class="fa fa-linkedin"></i> linkedin.com/in/rabinandan-kishor</a>
+              class="fa fa-linkedin"></i> linkedin.com/in/rabinandan-kishor</a>
         </p>
       </div>
     </section>
@@ -177,21 +153,28 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing',{
-      strings: ["AI Enthusiast", "Machine Learning Advocate", "Technology Innovator"],
-      typeSpeed: 100,
-      backSpeed: 50,
-      loop: true
+      strings: ["Pythonist", "Developer", "Fast Learner"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
     });
   </script>
-  
-  <!-- Materialize JS -->
-  <script src="assets/vendor/materialize/js/materialize.min.js"></script>
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems);
-      var elems = document.querySelectorAll('.scrollspy');
-      var instances = M.ScrollSpy.init(elems);
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy();
+      // Initialize collapse button
+      $(".sidenav-trigger").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks
+      });
     });
   </script>
 </body>
